@@ -4,7 +4,7 @@
 I wrote that powershell module because I couldn't find any module or cmdlet that could tail the content of a web file. This module exports the cmdlet `Get-WebContent` which works with servers that accept `byte` ranges:
  * Header `accept-ranges=bytes`
 
-It comes with a `-Wait` switch so that its able to get new content if the file you are getting changes onto the server. This is extremely helpful if you'd like to watch a log-file. It's like the powershell cmdlet `Get-Content` for the web and like a mixture of `wget` and `tail` from unix.
+It comes with a `-Wait` switch so that its able to get new content if the file you are getting changes onto the server. This is extremely helpful if you'd like to watch a log-file. It's like the powershell cmdlet `Get-Content` for the web and like a mixture of `wget` and `tail` from unix. The Content of the file will be streamed to the pipeline so it can easily be further processed.
 
 ## Installation
 
