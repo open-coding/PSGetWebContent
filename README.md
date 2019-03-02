@@ -17,3 +17,8 @@ Simply download the whole `PSGetWebContent` folder to `C:\Users\<username>\Docum
 | `Get-WebContent http://myserver/access.log -TailKiloBytes 2`  | gets the last two kilobytes of the file  |
 | `Get-WebContent http://myserver/access.log -Wait` | gets the whole content of the file and waits for more |
 | `Get-WebContent http://myserver/access.log -Wait -TailKiloBytes 2` | gets the last two kilobytes of the file and waits for more |
+
+### FAQ
+Q: Why does this cmdlet not support all different kinds of getting a webfile and supports e.g. only servers with byte-ranges.
+
+A: Because this cmdlet is designed to do explicit only the "wait" and "tail" stuff. For all other purposes exists already very good and efficient cmdlets and modules.
