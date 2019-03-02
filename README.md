@@ -13,10 +13,13 @@ Simply download the whole `PSGetWebContent` folder to `C:\Users\<username>\Docum
 ### Usage
 
 `Get-WebContent http://myserver/server.log`
+gets the whole content of the file
 
 `Get-WebContent http://myserver/server.log -TailKiloBytes 2`
+gets the last two kilobytes of the file
 
 `Get-WebContent http://myserver/server.log -Wait`
+gets the whole content of the file and waits for more
 
 `Get-WebContent http://myserver/server.log -Wait -TailKiloBytes 2`
-
+gets the last two kilobytes of the file and waits for more
