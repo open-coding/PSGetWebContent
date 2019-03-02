@@ -1,62 +1,62 @@
 #
-# Modulmanifest für das Modul "PSGet_PSGetWebContent"
+# Modulmanifest fÃ¼r das Modul "PSGet_PSGetWebContent"
 #
-# Generiert von: Patrick Möller-Knorr
+# Generiert von: Patrick MÃ¶ller-Knorr
 #
 # Generiert am: 03.02.2019
 #
 
 @{
 
-# Die diesem Manifest zugeordnete Skript- oder Binärmoduldatei.
+# Die diesem Manifest zugeordnete Skript- oder BinÃ¤rmoduldatei.
 RootModule = '.\PSGetWebContent.psm1'
 
 # Die Versionsnummer dieses Moduls
 ModuleVersion = '1.0'
 
-# Unterstützte PSEditions
+# UnterstÃ¼tzte PSEditions
 # CompatiblePSEditions = @()
 
 # ID zur eindeutigen Kennzeichnung dieses Moduls
 GUID = '207b0cad-d234-4e3b-bc4c-03a5859c3cf3'
 
 # Autor dieses Moduls
-Author = 'Patrick Möller-Knorr'
+Author = 'Patrick MÃ¶ller-Knorr'
 
 # Unternehmen oder Hersteller dieses Moduls
 CompanyName = 'none'
 
-# Urheberrechtserklärung für dieses Modul
-Copyright = '(c) 2019 Patrick Möller-Knorr. All rights reserved..'
+# UrheberrechtserklÃ¤rung fÃ¼r dieses Modul
+Copyright = '(c) 2019 Patrick MÃ¶ller-Knorr. All rights reserved.'
 
 # Beschreibung der von diesem Modul bereitgestellten Funktionen
 # Description = ''
 
-# Die für dieses Modul mindestens erforderliche Version des Windows PowerShell-Moduls
+# Die fÃ¼r dieses Modul mindestens erforderliche Version des Windows PowerShell-Moduls
 PowerShellVersion = '5.0'
 
-# Der Name des für dieses Modul erforderlichen Windows PowerShell-Hosts
+# Der Name des fÃ¼r dieses Modul erforderlichen Windows PowerShell-Hosts
 # PowerShellHostName = ''
 
-# Die für dieses Modul mindestens erforderliche Version des Windows PowerShell-Hosts
+# Die fÃ¼r dieses Modul mindestens erforderliche Version des Windows PowerShell-Hosts
 # PowerShellHostVersion = ''
 
-# Die für dieses Modul mindestens erforderliche Microsoft .NET Framework-Version. Diese erforderliche Komponente ist nur für die PowerShell Desktop-Edition gültig.
+# Die fÃ¼r dieses Modul mindestens erforderliche Microsoft .NET Framework-Version. Diese erforderliche Komponente ist nur fÃ¼r die PowerShell Desktop-Edition gÃ¼ltig.
 # DotNetFrameworkVersion = ''
 
-# Die für dieses Modul mindestens erforderliche Version der CLR (Common Language Runtime). Diese erforderliche Komponente ist nur für die PowerShell Desktop-Edition gültig.
+# Die fÃ¼r dieses Modul mindestens erforderliche Version der CLR (Common Language Runtime). Diese erforderliche Komponente ist nur fÃ¼r die PowerShell Desktop-Edition gÃ¼ltig.
 # CLRVersion = ''
 
-# Die für dieses Modul erforderliche Prozessorarchitektur ("Keine", "X86", "Amd64").
+# Die fÃ¼r dieses Modul erforderliche Prozessorarchitektur ("Keine", "X86", "Amd64").
 # ProcessorArchitecture = ''
 
-# Die Module, die vor dem Importieren dieses Moduls in die globale Umgebung geladen werden müssen
+# Die Module, die vor dem Importieren dieses Moduls in die globale Umgebung geladen werden mÃ¼ssen
 # RequiredModules = @()
 
-# Die Assemblys, die vor dem Importieren dieses Moduls geladen werden müssen
+# Die Assemblys, die vor dem Importieren dieses Moduls geladen werden mÃ¼ssen
 # RequiredAssemblies = @()
 
-# Die Skriptdateien (PS1-Dateien), die vor dem Importieren dieses Moduls in der Umgebung des Aufrufers ausgeführt werden.
+# Die Skriptdateien (PS1-Dateien), die vor dem Importieren dieses Moduls in der Umgebung des Aufrufers ausgefÃ¼hrt werden.
 # ScriptsToProcess = @()
 
 # Die Typdateien (.ps1xml), die beim Importieren dieses Moduls geladen werden sollen
@@ -68,16 +68,16 @@ PowerShellVersion = '5.0'
 # Die Module, die als geschachtelte Module des in "RootModule/ModuleToProcess" angegebenen Moduls importiert werden sollen.
 # NestedModules = @()
 
-# Aus diesem Modul zu exportierende Funktionen. Um optimale Leistung zu erzielen, verwenden Sie keine Platzhalter und löschen den Eintrag nicht. Verwenden Sie ein leeres Array, wenn keine zu exportierenden Funktionen vorhanden sind.
+# Aus diesem Modul zu exportierende Funktionen. Um optimale Leistung zu erzielen, verwenden Sie keine Platzhalter und lÃ¶schen den Eintrag nicht. Verwenden Sie ein leeres Array, wenn keine zu exportierenden Funktionen vorhanden sind.
 FunctionsToExport = 'Get-WebContent'
 
-# Aus diesem Modul zu exportierende Cmdlets. Um optimale Leistung zu erzielen, verwenden Sie keine Platzhalter und löschen den Eintrag nicht. Verwenden Sie ein leeres Array, wenn keine zu exportierenden Cmdlets vorhanden sind.
+# Aus diesem Modul zu exportierende Cmdlets. Um optimale Leistung zu erzielen, verwenden Sie keine Platzhalter und lÃ¶schen den Eintrag nicht. Verwenden Sie ein leeres Array, wenn keine zu exportierenden Cmdlets vorhanden sind.
 CmdletsToExport = @()
 
 # Die aus diesem Modul zu exportierenden Variablen
 VariablesToExport = '*'
 
-# Aus diesem Modul zu exportierende Aliase. Um optimale Leistung zu erzielen, verwenden Sie keine Platzhalter und löschen den Eintrag nicht. Verwenden Sie ein leeres Array, wenn keine zu exportierenden Aliase vorhanden sind.
+# Aus diesem Modul zu exportierende Aliase. Um optimale Leistung zu erzielen, verwenden Sie keine Platzhalter und lÃ¶schen den Eintrag nicht. Verwenden Sie ein leeres Array, wenn keine zu exportierenden Aliase vorhanden sind.
 AliasesToExport = @()
 
 # Aus diesem Modul zu exportierende DSC-Ressourcen
@@ -89,7 +89,7 @@ AliasesToExport = @()
 # Liste aller Dateien in diesem Modulpaket
 # FileList = @()
 
-# Die privaten Daten, die an das in "RootModule/ModuleToProcess" angegebene Modul übergeben werden sollen. Diese können auch eine PSData-Hashtabelle mit zusätzlichen von PowerShell verwendeten Modulmetadaten enthalten.
+# Die privaten Daten, die an das in "RootModule/ModuleToProcess" angegebene Modul Ã¼bergeben werden sollen. Diese kÃ¶nnen auch eine PSData-Hashtabelle mit zusÃ¤tzlichen von PowerShell verwendeten Modulmetadaten enthalten.
 PrivateData = @{
 
     PSData = @{
@@ -125,7 +125,7 @@ PrivateData = @{
 # HelpInfo-URI dieses Moduls
 # HelpInfoURI = ''
 
-# Standardpräfix für Befehle, die aus diesem Modul exportiert werden. Das Standardpräfix kann mit "Import-Module -Prefix" überschrieben werden.
+# StandardprÃ¤fix fÃ¼r Befehle, die aus diesem Modul exportiert werden. Das StandardprÃ¤fix kann mit "Import-Module -Prefix" Ã¼berschrieben werden.
 # DefaultCommandPrefix = ''
 
 }
