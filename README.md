@@ -6,11 +6,11 @@ I wrote that powershell module because I couldn't find any module or cmdlet that
 
 It comes with a `-Wait` switch so that its able to get new content if the file you are getting changes onto the server. This is extremely helpful if you'd like to watch a log-file. It's like the powershell cmdlet `Get-Content` for the web and like a mixture of `wget` and `tail` from unix.
 
-### Installation
+## Installation
 
 Simply download the whole `PSGetWebContent` folder to `C:\Users\<username>\Documents\WindowsPowerShell\Modules\`
 
-### Usage
+## Usage
 | Command | Description |
 | ------------- | ------------- |
 | `Get-WebContent http://myserver/access.log`  | gets the whole content of the file  |
@@ -18,7 +18,7 @@ Simply download the whole `PSGetWebContent` folder to `C:\Users\<username>\Docum
 | `Get-WebContent http://myserver/access.log -Wait` | gets the whole content of the file and waits for more |
 | `Get-WebContent http://myserver/access.log -Wait -TailKiloBytes 2` | gets the last two kilobytes of the file and waits for more |
 
-### FAQ
+## FAQ
 Q: Why does this cmdlet not support all different kinds of getting a webfile and supports e.g. only servers with byte-ranges.
 
 A: Because this cmdlet is designed to do explicit only the "wait" and "tail" stuff. For all other purposes exists already very good and efficient cmdlets and modules.
