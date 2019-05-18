@@ -1,9 +1,9 @@
-#
-# Modulmanifest für das Modul "PSGet_PSGetWebContent"
+﻿#
+# Modulmanifest für das Modul "PSGetWebContent"
 #
 # Generiert von: Patrick Möller-Knorr
 #
-# Generiert am: 03.02.2019
+# Generiert am: 18.05.2019
 #
 
 @{
@@ -12,13 +12,13 @@
 RootModule = '.\PSGetWebContent.psm1'
 
 # Die Versionsnummer dieses Moduls
-ModuleVersion = '1.0'
+ModuleVersion = '1.1'
 
 # Unterstützte PSEditions
 # CompatiblePSEditions = @()
 
 # ID zur eindeutigen Kennzeichnung dieses Moduls
-GUID = '207b0cad-d234-4e3b-bc4c-03a5859c3cf3'
+GUID = 'd989237c-c782-4b7f-849e-44168f786764'
 
 # Autor dieses Moduls
 Author = 'Patrick Möller-Knorr'

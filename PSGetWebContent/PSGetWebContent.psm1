@@ -1,5 +1,4 @@
-﻿#$logURL = "https://www.wesser.de/fileadmin/logfile_dir/logfile.log"
-
+﻿
 function Get-CurrentContentLength($url){
     $response = wget $url -Method Head
     return [double] $response.Headers.'Content-Length'
@@ -38,9 +37,9 @@ function Get-WebContent {
             $response = $request.GetResponse()
             $reader = [System.IO.StreamReader]::new($response.GetResponseStream())
             try {
-                while($line = $reader.ReadLine()) {
-                    $line
+                while(!$reader.EndOfStream) {
                     Write-Verbose "reading line"
+                    $reader.ReadLine()
                 } 
             } finally {
                 Write-Verbose "closing reader"
@@ -63,8 +62,9 @@ function Get-WebContent {
                     $response = $request.GetResponse()
                     $reader = [System.IO.StreamReader]::new($response.GetResponseStream(), [System.Text.Encoding]::UTF8)
                     try {
-                        while($line = $reader.ReadLine()) {
-                            $line
+                        while(!$reader.EndOfStream) {
+                            Write-Verbose "reading line"
+                            $reader.ReadLine()
                         }
                     } finally {
                         Write-Verbose "closing reader"
