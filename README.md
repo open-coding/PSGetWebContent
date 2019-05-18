@@ -24,3 +24,9 @@ Simply download the whole `PSGetWebContent` folder to `C:\Users\<username>\Docum
 Q: Why does this cmdlet not support all different kinds of getting a webfile and supports e.g. only servers with byte-ranges.
 
 A: Because this cmdlet is designed to do explicit only the "wait" and "tail" stuff. For all other purposes exists already very good and efficient cmdlets and modules.
+
+--
+
+Q: Can the cmdlet provided by the module be used in combination with other cmdlets?
+
+A: Yes it can! It will steam the output to the pipeline, so that other cmdlets can easily work on that stream. For example [PSColorizedLogOutput](https://github.com/open-coding/PSColorizedLogOutput) can be used in combination with PSGetWebContent.
