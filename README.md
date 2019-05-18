@@ -6,6 +6,8 @@ I wrote that powershell module because I couldn't find any module or cmdlet that
 
 It comes with a `-Wait` switch so that its able to get new content if the file you are getting changes onto the server. This is extremely helpful if you'd like to watch a log-file. It's like the powershell cmdlet `Get-Content` for the web and like a mixture of `wget` and `tail` from unix. The Content of the file will be streamed to the pipeline so it can easily be further processed.
 
+During the creation of the module, the focus was on simple usability. So no external dependencies to other modules or thirdparty software are required. 
+
 ## Installation
 
 Simply download the whole `PSGetWebContent` folder to `C:\Users\<username>\Documents\WindowsPowerShell\Modules\`
